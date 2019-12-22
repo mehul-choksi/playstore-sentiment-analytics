@@ -115,7 +115,7 @@ This often inflates the ratings of applications that are otherwise, mediocre - o
 # Evaluation
 	Test 1: An overrated application, with high ratings:
 
-	<img src = "https://github.com/mehul-choksi/playstore-sentiment-analytics/blob/master/images/illegit_1.png">
+	<img src="/images/illegit_1.png" />
 
 	Test 2: An authentic, high quality application:
 
