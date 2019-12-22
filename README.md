@@ -113,13 +113,15 @@ This often inflates the ratings of applications that are otherwise, mediocre - o
 	6. Stats => Calculate the custom rating, deviation from playstore
 
 # Evaluation
-	Test 1: A spam application, with high ratings:
+	Test 1: An overrated application, with high ratings:
 
-	<response image>
+	![overrated](https://github.com/mehul-choksi/playstore-sentiment-analytics/blob/master/images/illegit_1.png)
 
 	Test 2: An authentic, high quality application:
 
-	<response image>
+	![Legit](https://github.com/mehul-choksi/playstore-sentiment-analytics/blob/master/images/legit_1.png)
+	
+	![WordCloud](https://github.com/mehul-choksi/playstore-sentiment-analytics/blob/master/images/legit_wordcloud.png)
 ## Future Scope
 	1. The application reviews contain emoticons. While these are non ascii characters, our preprocessor simply eliminates them. Emoticons are, in essence are a very vital source of the sentiment. An effective preprocessor should be able to map the emoticon to english emoticon word. This would further improve the efficiency of the sentiment analysis.
 
