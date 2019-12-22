@@ -92,11 +92,14 @@ This often inflates the ratings of applications that are otherwise, mediocre - o
 		
 	Finally, combine all the seperate application reviews csvs into one large csv. This will be the dataset used to training our model.
 ## NLP
-	Our training set consists of 100k+ reviews and ratings. We will now feed these to model. The model with be able to associate positive/negative sentiments with the words. We have used multinomial naive bayes for sentiment analysis. This model assumes that each word is independent, and contributes equally to the outcome. Despite its simplicity, it is still one of the best algorithms for text processing.
+	Our training set consists of 100k+ reviews and ratings. We will now feed these to model. The model with be able to associate positive/negative sentiments with the words.
+	We have used multinomial naive bayes for sentiment analysis. This model assumes that each word is independent, and contributes equally to the outcome.
+	Despite its simplicity, it is still one of the best algorithms for text processing.
 
 ## Saving and loading model 
 
-	When we trained our model, it took over 30 mins to do so. It is therefore not feasible to have this kind of computation done each time an application starts. Instead, we use Python's joblib model to save our model as a file. This file can be loaded and used in any python application having joblib dependency.
+	When we trained our model, it took over 30 mins to do so. It is therefore not feasible to have this kind of computation done each time an application starts.
+	Instead, we use Python's joblib model to save our model as a file. This file can be loaded and used in any python application having joblib dependency.
 
 	
 ## Web application with flask
